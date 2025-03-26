@@ -1,0 +1,128 @@
+
+.inter-fonts {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  .corinthia-regular {
+    font-family: "Corinthia", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* shared styles */
+.primary-color{
+    color: white;
+}
+.light-gray{
+    color: rgba(255, 255, 255, 0.65);
+}
+.bg-color-linear{
+    background: linear-gradient(to bottom, #333333, #111111 );
+}
+.btn-primary{
+    padding: 16px 45px;
+    color: white;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 45px;
+}
+/* header styles */
+.navbar{
+    display: flex;
+    margin: 0 auto;
+    max-width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.logo{
+    font-weight: 900;
+    font-size: 36px;
+    color: #E6533C;
+}
+.navbar ul{
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-radius: 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px; 
+    
+}
+.navbar ul li {
+    display: inline;
+    
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    gap: 20px;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    max-width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 30px 0;
+}
+.banner-title{
+    font-weight: 900;
+    font-size: 78px;
+    margin-bottom: 10px;
+}
+.banner-btn{
+    display: flex;
+    gap: 20px;
+}
+.btn-download{
+    padding: 16px 45px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 45px;
+}
+.banner-text{
+    max-width: 50%;
+}
+.banner-img-container{
+    position: relative;
+    left: -150px;
+}
+.banner-img{
+    
+}
+.btn-number1{
+    position: absolute;
+    bottom: 80px;
+    left: -40px;
+    padding: 20px 30px;
+    background: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    border: none;
+    color: white;
+    
+}
+.btn-number2{
+    position: absolute;
+    top: 150px;
+    right: -50px;
+    padding: 10px 30px;
+    background: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    border: none;
+    color: white;
+}
+.n350{
+    font-weight: 600;
+    font-size: 24px;
+}
+.n500{
+    font-weight: 600;
+    font-size: 42px;
+}
