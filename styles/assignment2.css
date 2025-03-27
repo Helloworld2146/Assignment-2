@@ -139,6 +139,12 @@ main{
     margin-top: -5px;
     
 }
+.habits-container{
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+}
 .habit-text{
     max-width: 40%;
     margin: 0 auto;
@@ -147,13 +153,6 @@ main{
     font-weight: 600;
     font-size: 48px;
     margin-bottom: 10px;
-}
-
-.habits-container{
-    max-width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px 0;
 }
 .habit-img-container{
     justify-content: space-between;
@@ -216,6 +215,28 @@ main{
         padding: 0;
         
     }
+    .habits-container{
+    max-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    }
+    .habit-text{
+        font-weight: 900;
+        font-size: 32px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .habit-img-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .habit-title{
+        font-weight: 600;
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
 }
 /* desktop responsive */
 @media screen and (min-width: 992px) {
@@ -228,11 +249,11 @@ main{
         color: white;
     }
     .menu {
-        display: block; /* মেনু লুকানো থাকবে */
+        display: block;
         margin-left: auto;
     }
     
     .bar-icon {
-        display: none; /* ছোট স্ক্রিনে বার আইকন দেখাবে */
+        display: none;
     }
 }
