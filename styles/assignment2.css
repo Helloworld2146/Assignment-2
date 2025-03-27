@@ -4,15 +4,18 @@
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
-  }
-  .corinthia-regular {
+}
+.corinthia-regular {
     font-family: "Corinthia", cursive;
     font-weight: 600;
     font-size: 100px;
     font-style: normal;
-  }
+}
   
 /* shared styles */
+.display-hidden{
+    display: none;
+}
 .font-size-14{
     font-size: 14px;
 }
@@ -101,9 +104,6 @@
     position: relative;
     left: -150px;
 }
-.banner-img{
-    
-}
 .btn-number1{
     position: absolute;
     bottom: 80px;
@@ -164,4 +164,75 @@ main{
 }
 .img{
     border-radius: 100%;
+}
+/* mobile responsive */
+@media screen and (max-width: 576px) {
+    /* navbar responsive */
+    .navbar{
+        max-width: 100%;
+        margin: 0 10px;
+    }
+    .navbar ul{
+        display: none;
+    }
+    .bar-icon{
+        width: 30px;
+    }
+    .bar-icon:hover{
+        color: blue;
+    }
+    /* banner responsive */
+    .banner{
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        /* justify-content: space-between; */
+        margin: 30px 0;
+        margin: 0 10px;
+    }
+    .banner-text{
+        max-width: 100%;
+    }
+    .banner-title{
+        font-weight: 600;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .btn-primary{
+        padding: 15px 41px;
+        color: white;
+        background-color: #E6533C;
+        border: none;
+        border-radius: 42px;
+    }
+    .banner-img-container{
+        position: relative;
+        left: 30px;
+        /* width: 20px; */
+    }
+    .btn-number2{
+        top: 80px;
+        right: 20px;
+        padding: 0;
+        
+    }
+}
+/* desktop responsive */
+@media screen and (min-width: 992px) {
+    .navbar{
+        display: flex;
+        margin: 0 auto;
+        max-width: 80%;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+    }
+    .menu {
+        display: block; /* মেনু লুকানো থাকবে */
+        margin-left: auto;
+    }
+    
+    .bar-icon {
+        display: none; /* ছোট স্ক্রিনে বার আইকন দেখাবে */
+    }
 }
