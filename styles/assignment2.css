@@ -1,45 +1,52 @@
-
 .inter-fonts {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
 }
+
 .corinthia-regular {
     font-family: "Corinthia", cursive;
     font-weight: 600;
     font-size: 100px;
     font-style: normal;
 }
-  
+
 /* shared styles */
-.display-hidden{
+.display-hidden {
     display: none;
 }
-.font-size-14{
+
+.font-size-14 {
     font-size: 14px;
 }
-.primary-color{
+
+.primary-color {
     color: white;
 }
-.light-gray{
+
+.light-gray {
     color: rgba(255, 255, 255, 0.65);
 }
-.bg-color-linear{
-    background: linear-gradient(to bottom, #333333, #111111 );
+
+.bg-color-linear {
+    background: linear-gradient(to bottom, #333333, #111111);
 }
-.btn-primary{
+
+.btn-primary {
     padding: 16px 45px;
     color: white;
     background-color: #E6533C;
     border: none;
     border-radius: 45px;
 }
-.display-flex{
+
+.display-flex {
     display: flex;
 }
+
 /* header styles */
-.navbar{
+.navbar {
     display: flex;
     margin: 0 auto;
     max-width: 80%;
@@ -47,12 +54,14 @@
     justify-content: space-between;
     color: white;
 }
-.logo{
+
+.logo {
     font-weight: 900;
     font-size: 36px;
     color: #E6533C;
 }
-.navbar ul{
+
+.navbar ul {
     list-style: none;
     padding: 10px;
     align-items: center;
@@ -60,20 +69,23 @@
     border-radius: 45px;
     display: flex;
     justify-content: space-between;
-    gap: 30px; 
-    
+    gap: 30px;
+
 }
+
 .navbar ul li {
     display: inline;
-    
+
 }
-.navbar li a{
+
+.navbar li a {
     text-decoration: none;
     color: white;
     gap: 20px;
 }
+
 /* banner styles */
-.banner{
+.banner {
     display: flex;
     max-width: 80%;
     align-items: center;
@@ -81,30 +93,36 @@
     margin: 0 auto;
     margin-bottom: 30px 0;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 900;
     font-size: 78px;
     margin-bottom: 10px;
 }
-.banner-btn{
+
+.banner-btn {
     display: flex;
     gap: 20px;
 }
-.btn-download{
+
+.btn-download {
     padding: 16px 45px;
     color: white;
     background-color: transparent;
     border: 2px solid white;
     border-radius: 45px;
 }
-.banner-text{
+
+.banner-text {
     max-width: 50%;
 }
-.banner-img-container{
+
+.banner-img-container {
     position: relative;
     left: -150px;
 }
-.btn-number1{
+
+.btn-number1 {
     position: absolute;
     bottom: 80px;
     left: -40px;
@@ -113,9 +131,10 @@
     border-radius: 12px;
     border: none;
     color: white;
-    
+
 }
-.btn-number2{
+
+.btn-number2 {
     position: absolute;
     top: 150px;
     right: -50px;
@@ -125,122 +144,427 @@
     border: none;
     color: white;
 }
-.n350{
+
+.n350 {
     font-weight: 600;
     font-size: 24px;
 }
-.n500{
+
+.n500 {
     font-weight: 600;
     font-size: 42px;
 }
+
 /* main styles */
-main{
+main {
     background-color: rgb(0, 0, 0);
     margin-top: -5px;
-    
+
 }
-.habits-container{
+
+.habits-container {
     max-width: 80%;
     text-align: center;
     margin: 0 auto;
     padding: 20px 0;
 }
-.habit-text{
+
+.habit-text {
     max-width: 40%;
     margin: 0 auto;
 }
-.habit-title{
+
+.habit-title {
     font-weight: 600;
     font-size: 48px;
     margin-bottom: 10px;
 }
-.habit-img-container{
+
+.habit-img-container {
     justify-content: space-between;
     padding-top: 20px;
 }
-.width{
+
+.width {
     max-width: 230px;
 }
-.img{
+
+.img {
     border-radius: 100%;
 }
+
+/*  */
+.run-container {
+    background: rgba(34, 34, 34, 1);
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 40px 50px;
+    border-radius: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.run-easily {
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-text {
+    max-width: 30%;
+}
+
+.run-title {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.join-btn {
+    padding: 16px 70px;
+    color: white;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 45px;
+}
+
+.run-img {
+    max-width: 30%;
+    border-radius: 18px;
+}
+
+.training-exercise-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.training-text {
+    max-width: 45%;
+    margin-bottom: 58px;
+}
+
+.training-title {
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.box1 {
+    display: grid;
+    grid-template-columns: 400px auto 400px;
+}
+.box2{
+    display: grid;
+    grid-template-columns: auto 400px auto;
+    padding-bottom: 80px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.bmi-calculator{
+    max-width: 45%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.bmi-text{
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+
+.bmi-container{
+    background-color: #222222;
+}
+.bmi-data{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+}
+input{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.team-section{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+.team-container{
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.team-text{
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.team-members{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #333333;
+    border-radius: 18px;
+    padding: 40px;
+    gap: 20px;
+}
+.team-member{
+    position: relative;
+}
+.member-name {
+    position: absolute;
+    bottom: 22px;
+    left: 44px;
+
+}
+.profission{
+    position: absolute;
+    bottom: 2px;
+    left: 44px;
+
+}
+
+.team-member img{
+    width: 100%;
+    height:100%;
+    border-radius: 18px;
+}
+
+/* footer section styles */
+.footer{
+    background-color: #222222;
+    margin-top: -22px;
+    align-items: center;
+}
+.footer-content{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+.footer-text{
+    max-width: 30%;
+    margin-top: 5px;
+}
+.footer-title{
+    font-weight: 900;
+    font-size: 70px;
+    color: #E6533C;
+    margin-bottom: 10px;
+}
+.footer-dropdown{
+    max-width: 50%;
+    display: flex;
+    gap: 250px;
+    margin-top: 50px;
+}
+li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+hr{
+    margin-bottom: 30px;
+
+}
+.footer-last-part{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
 /* mobile responsive */
 @media screen and (max-width: 576px) {
+
     /* navbar responsive */
-    .navbar{
+    .navbar {
         max-width: 100%;
         margin: 0 10px;
     }
-    .navbar ul{
+
+    .navbar ul {
         display: none;
     }
-    .bar-icon{
+
+    .bar-icon {
         width: 30px;
     }
-    .bar-icon:hover{
+
+    .bar-icon:hover {
         color: blue;
     }
+
     /* banner responsive */
-    .banner{
+    .banner {
         flex-direction: column;
         max-width: 100%;
         align-items: center;
-        /* justify-content: space-between; */
         margin: 30px 0;
         margin: 0 10px;
     }
-    .banner-text{
+
+    .banner-text {
         max-width: 100%;
     }
-    .banner-title{
+
+    .banner-title {
         font-weight: 600;
         font-size: 36px;
         margin-bottom: 10px;
     }
-    .btn-primary{
+
+    .btn-primary {
         padding: 15px 41px;
         color: white;
         background-color: #E6533C;
         border: none;
         border-radius: 42px;
     }
-    .banner-img-container{
+
+    .banner-img-container {
         position: relative;
         left: 30px;
         /* width: 20px; */
     }
-    .btn-number2{
+
+    .btn-number2 {
         top: 80px;
         right: 20px;
         padding: 0;
-        
+
     }
-    .habits-container{
-    max-width: 100%;
-    text-align: center;
-    margin: 0 auto;
-    padding: 20px 0;
+
+    .habits-container {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0;
     }
-    .habit-text{
+
+    .habit-text {
         font-weight: 900;
         font-size: 32px;
         max-width: 80%;
         margin: 0 auto;
     }
-    .habit-img-container{
+
+    .habit-img-container {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
-    .habit-title{
+
+    .habit-title {
         font-weight: 600;
         font-size: 32px;
         margin-bottom: 10px;
     }
+
+    .run-container {
+        background: rgba(34, 34, 34, 1);
+        max-width: 70%;
+        margin: 0 auto;
+        border-radius: 18px;
+    }
+
+    .run-easily {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .run-text {
+        max-width: 100%;
+        font-weight: 500;
+        font-size: 32px;
+
+    }
+
+    .run-description {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .join-btn {
+        max-width: 100%;
+        padding: 15px 100px;
+    }
+
+    .run-img {
+        max-width: 100%;
+        border-radius: 18px;
+        margin-top: 30px;
+    }
+    /* training and exercise */
+    .training-exercise{
+        margin-bottom: 1px;
+    }
+    .training-text {
+        max-width: 100%;
+        margin-bottom: 58px;
+    }
+    .training-title {
+        font-weight: 800;
+        font-size: 32px;
+    }
+    .box1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .box2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 10px;
+    }
+    #img-3, #img-6{
+        display: none;
+    }
+    .bmi-calculator{
+        max-width: 100%;
+        margin: 0 auto;
+        padding-top: 10px;
+    }
+
+
+    .team-container{
+        text-align: center;
+        max-width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .team-members{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-content{
+        max-width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        gap: 10px;
+    }
+    .footer-text{
+        max-width: 100%;
+    }
+    .footer-dropdown{
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+    }
 }
+
 /* desktop responsive */
 @media screen and (min-width: 992px) {
-    .navbar{
+    .navbar {
         display: flex;
         margin: 0 auto;
         max-width: 80%;
@@ -248,11 +572,12 @@ main{
         justify-content: space-between;
         color: white;
     }
+
     .menu {
         display: block;
         margin-left: auto;
     }
-    
+
     .bar-icon {
         display: none;
     }
