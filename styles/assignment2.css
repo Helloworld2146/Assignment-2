@@ -66,22 +66,23 @@
     padding: 10px;
     align-items: center;
     border: 3px solid rgba(255, 255, 255, 0.1);
-    border-radius: 45px;
+    border-radius: 65px;
     display: flex;
     justify-content: space-between;
     gap: 30px;
+    margin-top: 16px;
 
 }
 
 .navbar ul li {
     display: inline;
+    margin-top: 15px;
 
 }
 
 .navbar li a {
     text-decoration: none;
     color: white;
-    gap: 20px;
 }
 
 /* banner styles */
